@@ -9,8 +9,11 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
+    "babel-plugin-root-import": "^6.6.0",
     "expo": "~51.0.7",
     "expo-status-bar": "~1.12.1",
+    "prettier": "^3.6.2",
     "react": "18.2.0",
     "react-native": "0.74.1"
   },
