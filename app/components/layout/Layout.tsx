@@ -14,7 +14,7 @@ const Layout = (props: Props) => {
 	return (
 		<View
 			className={cn(
-				"h-full w-full px-4",
+				"h-full w-full px-4 flex-shrink",
 				!showHeader && "mt-4",
 				className
 			)}>

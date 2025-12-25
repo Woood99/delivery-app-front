@@ -15,6 +15,7 @@ const PrivateNavigator = () => {
 		<Stack.Navigator
 			screenOptions={{
 				headerShown: false,
+				animation: "flip",
 				contentStyle: {
 					backgroundColor: "#fff"
 				}
