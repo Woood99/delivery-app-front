@@ -3,6 +3,14 @@ import { ComponentType } from "react";
 export type TypeRootStackParamList = {
 	Auth: undefined;
 	Home: undefined;
+	Favorites: undefined;
+	Search: undefined;
+	Explorer: undefined;
+	Profile: undefined;
+	Cart: undefined;
+	Category: {
+		slug: string;
+	};
 	Product: {
 		slug: string;
 	};
